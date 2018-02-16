@@ -185,13 +185,13 @@ a:hover {
   outline: none;
   font-family: 'Istok Web', sans-serif;
   color: rgb(255, 253, 244);
-  font-size: 30px;
+  font-size: 20px;
   text-align: justify;
   border: 5px;
   border-style: solid;
   border-color: hsl(9, 100%, 60%);
   background-color: hsl(9, 100%, 60%);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 #button input:hover {

@@ -2,6 +2,7 @@ var content;
 var button1;
 var button2;
 var button3;
+var story1;
 
 //Find story and graph pane and the button
 var contentDiv = document.getElementById("content");
@@ -12,6 +13,7 @@ var button3Div= document.getElementById("button3");
 // var button = document.getElementById("button1");
 // var button = document.getElementById("button2");
 // var button = document.getElementById("button3");
+var story1Div= document.getElementById("first");
 
 // //hide graph section
 // vizDiv.style.visibility = "hidden";
@@ -45,3 +47,10 @@ button2Div.addEventListener("click", show2);
 // show2();
 button3Div.addEventListener("click", show3);
 // show3();
+
+function dataStory1() {
+  var dStory1 = document.getElementById("content").innerHTML='<a href="stories/Story1.htm">Data Story 1</a>';
+}
+// function dataStory2() {
+//   var story2 = document.getElementById("content").innerHTML='<a href="stories/Story2.htm">Data Story 2</a>';
+// }
