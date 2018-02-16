@@ -1,10 +1,14 @@
 var content;
-var button;
+var button1;
+var button2;
+var button3;
 
 //Find story and graph pane and the button
 var contentDiv = document.getElementById("content");
 // var vizDiv = document.getElementById("viz");
-var buttonDiv= document.getElementById("button")
+var button1Div= document.getElementById("button1");
+var button2Div= document.getElementById("button2");
+var button3Div= document.getElementById("button3");
 // var button = document.getElementById("button1");
 // var button = document.getElementById("button2");
 // var button = document.getElementById("button3");
@@ -27,5 +31,7 @@ function show() {
   // var newImage2 = document.getElementById("button3").style.maxHeight = "200px";
 }
 
-button.addEventListener("click", show)
+button1.addEventListener("click", show);
+button2.addEventListener("click", show);
+button3.addEventListener("click", show);
 show();
