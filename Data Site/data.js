@@ -4,9 +4,10 @@ var button;
 //Find story and graph pane and the button
 var contentDiv = document.getElementById("content");
 // var vizDiv = document.getElementById("viz");
-var button = document.getElementById("button1");
-var button = document.getElementById("button2");
-var button = document.getElementById("button3");
+var buttonDiv= document.getElementById("button")
+// var button = document.getElementById("button1");
+// var button = document.getElementById("button2");
+// var button = document.getElementById("button3");
 
 // //hide graph section
 // vizDiv.style.visibility = "hidden";
@@ -18,13 +19,13 @@ contentDiv.innerHTML = "The content of this page will be regularly updated with 
 // button.value = "FIRST STORY";
 
 function show() {
-  var button = document.getElementById("button1").innerHTML = '<img src="viz/Story1Data1.png" alt="">';
-  var content = document.getElementById("button1").style.maxHeight = "200px";
-  // var button = document.getElementById("button2").innerHTML= '<img src="viz/Story2Data1.jpg" alt="">';
-  // var button = document.getElementById("button2").style.maxHeight = "200px";
-  // var button = document.getElementById("button3").innerHTML= '<img src="viz/Story2Data2.png" alt="">';
-  // var button = document.getElementById("button3").style.maxHeight = "200px";
+  var newImage = document.getElementById("content").innerHTML = '<img src="viz/Story1Data1.png" alt="">';
+  // var newImage = document.getElementById("content").style.height = "200px";
+  var newImage1 = document.getElementById("content").innerHTML= '<img src="viz/Story2Data1.jpg" alt="">';
+  // var newImage1 = document.getElementById("button2").style.maxHeight = "200px";
+  var newImage2 = document.getElementById("content").innerHTML= '<img src="viz/Story2Data2.png" alt="">';
+  // var newImage2 = document.getElementById("button3").style.maxHeight = "200px";
 }
 
-
+button.addEventListener("click", show)
 show();
