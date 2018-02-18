@@ -85,11 +85,12 @@ body, * {
   position: absolute;
   background-color: rgb(255, 253, 244);
   opacity: 0.7;
-  width: 100%;
+  /* width: 100%; */
   overflow: auto;
   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   z-index: 1;
   text-align: center;
+  align-items: center;
 
 
 }
