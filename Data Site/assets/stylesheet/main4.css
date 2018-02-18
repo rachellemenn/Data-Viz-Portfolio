@@ -82,6 +82,13 @@ body, * {
   background-color: rgb(255, 253, 244);
   color: hsl(9, 100%, 60%);
   border: none;
+  font-size: 20px;
+  font-family: 'Istok Web', sans-serif;
+  text-decoration: none;
+  padding-right: 35px;
+  padding-left: 35px;
+  position: relative;
+  display: inline-block;
 }
 
 .first {
