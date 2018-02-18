@@ -92,8 +92,6 @@ body, * {
   text-align: center;
   align-items: center;
   text-decoration: none;
-
-
 }
 
 .first .link {
@@ -146,6 +144,7 @@ body, * {
 
 .item:hover .second {
   display: block;
+  text-decoration: none;
 }
 
 .item:hover .link {
