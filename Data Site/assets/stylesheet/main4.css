@@ -60,7 +60,7 @@ body, * {
 }
 
 
-.item .link {
+.item .header {
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -94,7 +94,7 @@ body, * {
   text-decoration: none;
 }
 
-.first .link {
+.first .header {
   color: hsl(9, 100%, 60%);
   /* padding: 12px 16px; */
   text-decoration: none;
@@ -104,7 +104,7 @@ body, * {
 
 }
 
-.first .link:hover {
+.first .header:hover {
   opacity: 0.7;
   color: hsl(9, 100%, 60%);
   cursor: pointer;
