@@ -27,7 +27,7 @@ var link2 = document.getElementById("text2");
 //initalise home screen
 contentDiv.innerHTML = "The content of this page will be regularly updated with more <br><br> complex versions of existing visualisations and new projects. <br><br><br> The buttons below can be used to view visualisations independently. <br><br> Alternatively, complete data stories can be viewed using the nav bar.";
 contentDiv.style.visibility = "visible";
-ContentDiv.style.visiblity = "hidden";
+contentDiv.style.visiblity = "hidden";
 // button.value = "FIRST STORY";
 
 function show1() {
