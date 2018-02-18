@@ -229,6 +229,27 @@ a:hover {
   display: flex;
 }
 
+#button1 {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:90vh;
+}
+
+#button2 {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:90vh;
+}
+
+#button3 {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:90vh;
+}
+
 /* #button {
   display: flex;
   flex-direction: row;
