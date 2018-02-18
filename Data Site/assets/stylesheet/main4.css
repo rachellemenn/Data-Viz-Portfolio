@@ -97,6 +97,7 @@ body, * {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  border: none;
 }
 
 .first .link:hover {
@@ -112,7 +113,7 @@ body, * {
 .item:hover .link {
   opacity: 0.7;
   color: hsl(9, 100%, 60%);
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .title a {
