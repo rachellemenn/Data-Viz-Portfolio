@@ -271,3 +271,7 @@ a:hover {
   position: absolute;
   background: none;
 }
+
+.flex-container {
+  margin: 4px;
+}
