@@ -57,7 +57,7 @@ function showText1(){
   el.src = 'stories/Story1.htm';
   el.style.visibility = "visible";
   el.style.height = el.contentDocument.body.scrollHeight + 'px';
-  el.style.width = '100%';
+  el.style.width = '90vw';
 }
 
 function showText2(){
