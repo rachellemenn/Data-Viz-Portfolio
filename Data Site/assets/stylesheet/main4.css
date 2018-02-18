@@ -59,20 +59,6 @@ body, * {
 
 }
 
-/* nav {
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: hsl(0, 0%, 20%);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: hsl(0, 0%, 20%);
-  font-size: 20px;
-  font-family: 'Istok Web', sans-serif;
-} */
-
 nav ul li a {
   margin-top: 10px;
   padding-top: 10px;
