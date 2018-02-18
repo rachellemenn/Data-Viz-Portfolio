@@ -52,7 +52,7 @@ function show3(){
 
 function showText1(){
   document.getElementById("content").style.visibility = "hidden";
-  contentDiv.innerHTML = "UK Cycling Incidents Occur 80 Percent of The Time in Urban Areas"
+  contentDiv.innerHTML = "UK Cycling Incidents Occur 80 Percent of The Time in Urban Areas";
   var el = document.getElementById("htmlcontent");
   el.src = 'stories/Story1.htm';
   el.style.visibility = "visible";

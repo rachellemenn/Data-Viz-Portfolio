@@ -91,6 +91,7 @@ body, * {
   z-index: 1;
   text-align: center;
   align-items: center;
+  text-decoration: none;
 
 
 }
