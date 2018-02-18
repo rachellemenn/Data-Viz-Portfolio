@@ -232,7 +232,7 @@ a:hover {
   min-width: 100vw;
   flex-shrink: 3;
   justify-content: center;
-  padding-left: 6em;
+  /* padding-left: 6em; */
   font-family: 'Istok Web', sans-serif;
   font-size: 1.2em;
   color: hsl(0, 0%, 20%);
