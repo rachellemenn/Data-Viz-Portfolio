@@ -27,17 +27,17 @@ var link2 = document.getElementById("text2");
 //initalise home screen
 contentDiv.innerHTML = "The content of this page will be regularly updated with more <br><br> complex versions of existing visualisations and new projects. <br><br><br> The buttons below can be used to view visualisations independently. <br><br> Alternatively, complete data stories can be viewed using the nav bar.";
 contentDiv.style.visibility = "visible";
-htmlContntDiv.style.visiblity = "hidden";
+htmlContentDiv.style.visiblity = "hidden";
 // button.value = "FIRST STORY";
 
 function show1() {
-  document.getElementById("htmlcontent").style.visibility = "hidden";
-  var el = document.getElementById("content");
-  el.style.visiblity = "visible";
-  var image1 = el.innerHTML = '<img src="viz/Story1Data1.png" alt="" style="mix-blend-mode: multiply;">';
-  el.style.width = "100%";
-  el.style.height = "100%";
-  el.style.maxHeight = "500px";
+    document.getElementById("htmlcontent").style.visibility = "hidden";
+    var el = document.getElementById("content");
+    el.style.visiblity = "visible";
+    var image1 = el.innerHTML = '<img src="viz/Story1Data1.png" alt="" style="mix-blend-mode: multiply;">';
+    el.style.width = "100%";
+    el.style.height = "100%";
+    el.style.maxHeight = "500px";
   // var image1 = document.getElementById("content").innerHTML = '<img src="viz/Story1Data1.png" alt="">';
   //var newImage = document.getElementById("content").style.height = "200px";
 }
