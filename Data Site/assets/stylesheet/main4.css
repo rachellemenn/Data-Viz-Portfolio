@@ -58,17 +58,6 @@ body, * {
   position: fixed;
 }
 
-.item {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: hsl(0, 0%, 20%);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: hsl(0, 0%, 20%);  
-}
-
 .item .link {
   margin-top: 10px;
   padding-top: 10px;
