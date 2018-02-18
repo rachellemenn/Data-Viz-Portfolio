@@ -87,7 +87,7 @@ body, * {
   /* opacity: 0.7; */
   /* width: 100%; */
   overflow: auto;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   z-index: 1;
   text-align: center;
   align-items: center;
@@ -99,7 +99,7 @@ body, * {
   color: hsl(9, 100%, 60%);
   /* padding: 12px 16px; */
   text-decoration: none;
-  display: block;
+  display: inline-block;
 
 }
 
@@ -215,7 +215,7 @@ a:hover {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items:center;
-  padding-top: 100px;
+  padding-top: 150px;
   margin: 0;
   min-width: 100vw;
   flex-shrink: 3;
