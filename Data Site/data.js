@@ -61,6 +61,7 @@ function show3(){
   el.style.width = "100%";
   el.style.height ="100%";
   el.style.maxHeight = "500px";
+}  
 
 function showText1(){
   document.getElementById("content").style.visibility = "hidden";
