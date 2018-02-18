@@ -58,7 +58,7 @@ body, * {
   position: fixed;
 }
 
-.item .link {
+.item .header {
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -70,12 +70,17 @@ body, * {
   border-bottom-color: hsl(0, 0%, 20%);
   font-size: 20px;
   font-family: 'Istok Web', sans-serif;
+  color: hsl(9, 100%, 60%);
   text-decoration: none;
   padding-right: 35px;
   padding-left: 35px;
   display: inline-block;
+}
+
+.item .link {
   background-color: rgb(255, 253, 244);
-  color: hsl(9, 100%, 60%);
+  color: hsl(0, 0%, 20%);
+  font-size: 20px;
   border: none;
 }
 
