@@ -266,7 +266,7 @@ a:hover {
     max-height:90vh;
 }
 
-#htmlcontent iframe {
+#htmlcontent {
 flex-direction: column;
 flex-wrap: nowrap;
 align-items:center;
