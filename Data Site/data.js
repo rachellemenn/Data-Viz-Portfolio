@@ -29,6 +29,9 @@ function show1() {
     el.style.width = "100%";
     el.style.height = "100%";
     el.style.maxHeight = "500px";
+    el.image1.width = "300px";
+    el.image1.height = "200px";
+
 }
 
 function show2(){
