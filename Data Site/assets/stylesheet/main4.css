@@ -266,7 +266,7 @@ a:hover {
     max-height:90vh;
 }
 
-#htmlcontent {
+/* #htmlcontent {
 flex-direction: column;
 flex-wrap: nowrap;
 align-items:center;
@@ -280,7 +280,7 @@ font-family: 'Istok Web', sans-serif;
 font-size: 1.2em;
 color: hsl(0, 0%, 20%);
 display: flex;
-}
+} */
 
 .flex-container {
   margin: 4px;
