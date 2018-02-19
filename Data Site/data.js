@@ -25,7 +25,7 @@ function show1() {
     document.getElementById("htmlcontent").style.visibility = "hidden";
     var el = document.getElementById("content");
     el.style.visiblity = "visible";
-    var image1 = el.innerHTML = '<img src="viz/Story1Data1.png" alt="" style="mix-blend-mode: multiply;">';
+    var image1 = el.innerHTML = '<img src="viz/Story1Data1.jpg" alt="" style="mix-blend-mode: multiply;">';
     el.style.width = "100%";
     el.style.height = "100%";
     el.style.maxHeight = "500px";
@@ -45,7 +45,7 @@ function show3(){
   document.getElementById("htmlcontent").style.visibility = "hidden";
   var el = document.getElementById("content");
   el.style.visibilty = "visible";
-  var image2 = el.innerHTML = '<img src="viz/Story2Data2.jpg" alt="" style="mix-blend-mode: multiply;">';
+  var image2 = el.innerHTML = '<img src="viz/Story2Data2.png" alt="" style="mix-blend-mode: multiply;">';
   el.style.width = "80%";
   el.style.height ="80%";
   el.style.maxHeight = "500px";
