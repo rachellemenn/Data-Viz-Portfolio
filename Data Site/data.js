@@ -46,9 +46,11 @@ function show3(){
   var el = document.getElementById("content");
   el.style.visibilty = "visible";
   var image2 = el.innerHTML = '<img src="viz/Story2Data2.png" alt="" style="mix-blend-mode: multiply;">';
-  image2.style.width = "80%";
-  image2.style.height ="80%";
-  image2.style.maxHeight = "500px";
+  el.style.width = "80%";
+  el.style.height ="80%";
+  el.style.maxHeight = "500px";
+  image2.style.width = "100px";
+  image2.style.height = "200px";
 }
 
 function showText1(){
