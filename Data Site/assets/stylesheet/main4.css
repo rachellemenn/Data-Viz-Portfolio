@@ -262,7 +262,7 @@ a:hover {
     max-height:90vh;
 }
 
-/* #htmlcontent {
+iframe {
 flex-direction: column;
 flex-wrap: nowrap;
 align-items:center;
@@ -272,11 +272,11 @@ min-width: 80vw;
 flex-shrink: 3;
 justify-content: center;
 /* padding-left: 6em; */
-/* font-family: 'Istok Web', sans-serif;
+font-family: 'Istok Web', sans-serif;
 font-size: 1.2em;
 color: hsl(0, 0%, 20%);
 display: flex;
-}  */
+}
 
 .flex-container {
   margin: 4px;
