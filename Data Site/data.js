@@ -73,5 +73,5 @@ button2Div.addEventListener("click", show2);
 button3Div.addEventListener("click", show3);
 
 link1.addEventListener("click", showText1);
-contentDiv.innerHTML = "UK Cycling Incidents Occur 80 Percent of The Time in Urban Areas";
+// contentDiv.innerHTML = "UK Cycling Incidents Occur 80 Percent of The Time in Urban Areas";
 link2.addEventListener("click", showText2);
