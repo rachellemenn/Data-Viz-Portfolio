@@ -241,7 +241,7 @@ a:hover {
   display: flex;
 }
 
-#content #button1 {
+ #button1 {
     width:auto;
     height:auto;
     max-width:100%;
