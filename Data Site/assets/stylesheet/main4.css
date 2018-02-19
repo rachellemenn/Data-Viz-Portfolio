@@ -281,3 +281,8 @@ display: flex;
 .flex-container {
   margin: 4px;
 }
+
+img {
+  height: 500px;
+  width: 300px;
+}
