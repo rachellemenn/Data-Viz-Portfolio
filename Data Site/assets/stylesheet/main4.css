@@ -283,8 +283,6 @@ display: flex;
 }
 
 img {
-  height: 80vh;
-  padding-right: 35px;
-  padding-left: 35px;
+  height: 90vh;
   mix-blend-mode: multiply
 }
