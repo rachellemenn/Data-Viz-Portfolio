@@ -38,7 +38,7 @@ function show2(){
   var image2 = el.innerHTML = '<img src="viz/Story2Data1.jpg" alt="" style="mix-blend-mode: multiply;">';
   el.style.width = "80%";
   el.style.height ="80%";
-  el.style.maxHeight = "500px";
+  el.style.maxHeight = "100px";
 }
 
 function show3(){
