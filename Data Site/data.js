@@ -53,7 +53,6 @@ function show3(){
 function showText1(){
   document.getElementById("content").style.visibility = "hidden";
   var el = document.getElementById("htmlcontent");
-  contentDiv.innerHTML = "UK Cycling Incidents Occur 80 Percent of The Time in Urban Areas";
   el.src = 'stories/Story1.htm';
   el.style.visibility = "visible";
   el.style.height = el.contentDocument.body.scrollHeight + 'px';
@@ -74,4 +73,5 @@ button2Div.addEventListener("click", show2);
 button3Div.addEventListener("click", show3);
 
 link1.addEventListener("click", showText1);
+contentDiv.innerHTML = "UK Cycling Incidents Occur 80 Percent of The Time in Urban Areas";
 link2.addEventListener("click", showText2);
