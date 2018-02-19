@@ -29,8 +29,6 @@ function show1() {
     el.style.width = "100%";
     el.style.height = "100%";
     el.style.maxHeight = "500px";
-    el.image1.width = "300px";
-    el.image1.height = "200px";
 
 }
 
@@ -39,9 +37,9 @@ function show2(){
   var el = document.getElementById("content");
   el.style.visibilty = "visible";
   var image2 = el.innerHTML = '<img src="viz/Story2Data1.jpg" alt="" style="mix-blend-mode: multiply;">';
-  el.style.width = "80%";
-  el.style.height ="80%";
-  el.style.maxHeight = "100px";
+  el.style.width = "100%";
+  el.style.height ="100%";
+  el.style.maxHeight = "500px";
 }
 
 function show3(){
@@ -49,11 +47,9 @@ function show3(){
   var el = document.getElementById("content");
   el.style.visibilty = "visible";
   var image2 = el.innerHTML = '<img src="viz/Story2Data2.png" alt="" style="mix-blend-mode: multiply;">';
-  el.style.width = "80%";
-  el.style.height ="80%";
+  el.style.width = "100%";
+  el.style.height ="100%";
   el.style.maxHeight = "500px";
-  image2.style.width = "100px";
-  image2.style.height = "200px";
 }
 
 function showText1(){
