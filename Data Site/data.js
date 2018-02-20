@@ -53,26 +53,39 @@ function show3(){
 }
 
 function showText1(){
+    console.log("showText1");
+
   document.getElementById("content").style.visibility = "hidden";
   var el = document.getElementById("htmlcontent");
-  el.src = 'stories/Story1.htm';
-  el.style.visibility = "visible";
-  el.style.height = el.contentDocument.body.scrollHeight + 'px';
   el.style.width = '90vw';
+  el.style.visibility = "visible";
+  el.src = 'stories/Story1.htm';
+  el.style.height = el.contentDocument.body.scrollHeight + 'px';
 }
 
 function showText2(){
+    console.log("showText2");
+
   document.getElementById("content").style.visibility = "hidden";
   var el = document.getElementById("htmlcontent");
-  el.src = 'stories/Story2.htm';
+  el.style.width = '90vw';
   el.style.visibility = "visible";
+  el.src = 'stories/Story2.htm';
   el.style.height = el.contentDocument.body.scrollHeight + 'px';
-  el.style.width = '100%';
+}
+
+function resizeIframe() {
+  var el = document.getElementById('htmlcontent');
+  if (el) {
+    var cont = iFrameID.contentWindow.document.body || frame.contentDocument.body
+    el.style.height = cont.scrollHeight + "px";
+  }
 }
 
 button1Div.addEventListener("click", show1);
 button2Div.addEventListener("click", show2);
 button3Div.addEventListener("click", show3);
+document.getElementById("htmlcontent").addEventListener("load", resizeIframe);
 
 link1.addEventListener("click", showText1);
 // contentDiv.innerHTML = "UK Cycling Incidents Occur 80 Percent of The Time in Urban Areas";
