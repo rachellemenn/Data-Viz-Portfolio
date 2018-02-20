@@ -76,9 +76,8 @@ function showText2(){
 
 function resizeIframe() {
   var el = document.getElementById('htmlcontent');
-  var iFrameID = document.getElementById('htmlcontent');
   if (el) {
-    var cont = iFrameID.contentWindow.document.body || frame.contentDocument.body;
+    var cont = el.contentWindow.document.body || frame.contentDocument.body;
     el.style.height = cont.scrollHeight + "px";
   }
 }
