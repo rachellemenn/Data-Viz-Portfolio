@@ -137,7 +137,6 @@ body, * {
   text-decoration: none;
   margin-top: 8px;
   margin-left: -10px;
-  margin-right: -10px;
 }
 
 .second .link {
@@ -148,6 +147,7 @@ body, * {
   align-items: center;
   text-align: center;
   width: 232px;
+  margin-right: -10px;
 }
 
 
