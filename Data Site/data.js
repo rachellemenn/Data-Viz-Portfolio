@@ -60,7 +60,7 @@ function showText1(){
   el.style.width = '90vw';
   el.style.visibility = "visible";
   el.src = 'stories/Story1.htm';
-  el.style.height = el.contentDocument.body.scrollHeight + 'px';
+  el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
 }
 
 function showText2(){
@@ -71,7 +71,7 @@ function showText2(){
   el.style.width = '90vw';
   el.style.visibility = "visible";
   el.src = 'stories/Story2.htm';
-  el.style.height = el.contentDocument.body.scrollHeight + 'px';
+  el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
 }
 
 function resizeIframe() {
