@@ -148,6 +148,7 @@ body, * {
   align-items: center;
   text-align: center;
   width: 232px;
+  margin-left: -50px;
 }
 
 
