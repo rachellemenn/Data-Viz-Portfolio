@@ -109,8 +109,6 @@ body, * {
   display: block;
   align-items: center;
   text-align: center;
-  width: 180px;
-
 }
 
 .first .link:hover {
@@ -147,8 +145,6 @@ body, * {
   display: block;
   align-items: center;
   text-align: center;
-  width: 232px;
-  margin-left: -50px;
 }
 
 
