@@ -59,6 +59,7 @@ function showText1(){
   var el = document.getElementById("htmlcontent");
   el.style.width = '90vw';
   el.style.visibility = "visible";
+  el.style.paddingTop = '100px';
   el.src = 'stories1/Story1.htm';
   el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
 }
