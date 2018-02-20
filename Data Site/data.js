@@ -57,7 +57,7 @@ function showText1(){
 
   document.getElementById("content").style.visibility = "hidden";
   var el = document.getElementById("htmlcontent");
-  el.style.width = '90vw';
+  el.style.width = '80vw';
   el.style.visibility = "visible";
   el.src = 'stories1/Story1.htm';
   el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
@@ -68,7 +68,7 @@ function showText2(){
 
   document.getElementById("content").style.visibility = "hidden";
   var el = document.getElementById("htmlcontent");
-  el.style.width = '90vw';
+  el.style.width = '80vw';
   el.style.visibility = "visible";
   el.src = 'stories1/Story2.htm';
   el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
