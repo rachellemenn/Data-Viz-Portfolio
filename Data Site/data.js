@@ -59,7 +59,7 @@ function showText1(){
   var el = document.getElementById("htmlcontent");
   el.style.width = '90vw';
   el.style.visibility = "visible";
-  el.src = 'stories/Story1.htm';
+  el.src = 'stories1/Story1.htm';
   el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
 }
 
@@ -70,7 +70,7 @@ function showText2(){
   var el = document.getElementById("htmlcontent");
   el.style.width = '90vw';
   el.style.visibility = "visible";
-  el.src = 'stories/Story2.htm';
+  el.src = 'stories1/Story2.htm';
   el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
 }
 
