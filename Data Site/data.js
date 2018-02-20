@@ -78,8 +78,6 @@ function resizeIframe() {
   var el = document.getElementById('htmlcontent');
   if (el) {
     var cont = el.contentWindow.document.body || frame.contentDocument.body
-    el.style.justifyContent = 'center';
-    el.style.fontFamily = "'Istok Web', sans-serif";
     el.style.height = cont.scrollHeight + "px";
   }
 }
