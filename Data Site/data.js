@@ -106,7 +106,6 @@ console.log(" loaded showText1");
 // }
 
 function showText2(){
-
     cleanupContent();
     parentContainer.appendChild(htmlContent);
     htmlContent.src = 'stories/Story2.html';
@@ -123,7 +122,7 @@ console.log("loaded showText2");
 function resizeIframe() {
   // var el = document.getElementById('htmlcontent');
   // if (el) {
-    var cont = htmlContent.contentWindow.document.body || frame.contentDocument.body
+    var cont = htmlContent.contentWindow.document.body || frame.contentDocument.body;
     htmlContent.style.height = cont.scrollHeight + 10 + "px";
   }
 
@@ -135,7 +134,7 @@ console.log("adding load listener");
 htmlContent.addEventListener("load", resizeIframe);
 // document.getElementById("htmlcontent").
 
-console.log("adding click listener for html show")
+console.log("adding click listener for html show");
 link1.addEventListener("click", showText1);
 // contentDiv.innerHTML = "UK Cycling Incidents Occur 80 Percent of The Time in Urban Areas";
 link2.addEventListener("click", showText2);
