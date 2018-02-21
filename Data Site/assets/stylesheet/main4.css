@@ -344,10 +344,10 @@ iframe {
   mix-blend-mode: multiply;
 } */
 
-.WordSection1 h2 {
+.WordSection1 {
   font-family: 'Istok Web', sans-serif;
-  font-size: 1.4em;
-  color: hsl(9, 100%, 60%);
+  /* font-size: 1.4em;
+  color: hsl(9, 100%, 60%); */
   padding-bottom: 50px;
   padding-top: 100px;
 }
