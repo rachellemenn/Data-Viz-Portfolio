@@ -63,7 +63,7 @@ console.log("loaded show1");
 function show2(){
   cleanupContent();
   parentContainer.appendChild(imageContent);
-  imageContent.innerHTML ='<img class="viz" src="viz/Story2Data1.jpg" alt="" style="mix-blend-mode: multiply;">';
+  imageContent.innerHTML ='<img class="viz" src="viz/Story2Data1.jpg" alt="">';
   // document.getElementById("htmlcontent").style.visibility = "hidden";
   // var el = document.getElementById("content");
   // el.style.visibilty = "visible";
@@ -77,7 +77,7 @@ console.log("loaded show2");
 function show3(){
   cleanupContent();
   parentContainer.appendChild(imageContent);
-  imageContent.innerHTML ='<img class="viz" src="viz/Story2Data2.png" alt="" style="mix-blend-mode: multiply;">';
+  imageContent.innerHTML ='<img class="viz" src="viz/Story2Data2.png" alt="">';
   // document.getElementById("htmlcontent").style.visibility = "hidden";
   // var el = document.getElementById("content");
   // el.style.visibilty = "visible";
