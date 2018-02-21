@@ -326,7 +326,7 @@ iframe {
   display: flex;
 } */
 
- .WordSection1 {
+ /* .WordSection1 {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items:center;
@@ -335,7 +335,7 @@ iframe {
   min-width: 80vw;
   flex-shrink: 3;
   justify-content: center;
-}
+} */
 
 .WordSection1 .MsoNormal {
   font-family: 'Istok Web', sans-serif;
