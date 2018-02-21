@@ -102,8 +102,8 @@ console.log(" loaded showText1");
   // el.style.alignItems = 'center';
   // el.style.visibility = "visible";
   // el.src = 'stories2/Story1.html';
-  el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
-}
+//   el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
+// }
 
 function showText2(){
 
@@ -117,7 +117,7 @@ console.log("loaded showText2");
   // el.style.width = '80vw';
   // el.style.visibility = "visible";
   // el.src = 'stories2/Story2.html';
-  el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
+  // el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
 }
 
 function resizeIframe() {
