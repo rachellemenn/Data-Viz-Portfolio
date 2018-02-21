@@ -70,7 +70,7 @@ body, * {
   border-bottom-width: 1px;
   border-bottom-color: hsl(0, 0%, 20%);
   font-size: 20px;
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'Poiret One', cursive;
   color: hsl(9, 100%, 60%);
   text-decoration: none;
   /* padding-right: 35px;
@@ -320,7 +320,7 @@ iframe {
   display: flex;
 } */
 
-/* .WordSection1 {
+ .WordSection1 {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items:center;
@@ -329,11 +329,17 @@ iframe {
   min-width: 80vw;
   flex-shrink: 3;
   justify-content: center;
-  /* padding-left: 6em; */
-  /* font-family: 'Istok Web', sans-serif;
+}
+
+.WordSection1 .MsoNormal {
+  font-family: 'Istok Web', sans-serif;
   font-size: 1.2em;
   color: hsl(0, 0%, 20%);
   display: flex;
 }
 
-.M  */
+.WordSection1 h2 {
+font-family: 'Istok Web', sans-serif;
+font-size: 1.8em;
+color: hsl(9, 100%, 60%);
+}
