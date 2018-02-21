@@ -343,3 +343,11 @@ iframe {
   max-height: 500px;
   mix-blend-mode: multiply;
 } */
+
+.WordSection1 h2 {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1.4em;
+  color: hsl(9, 100%, 60%);
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
