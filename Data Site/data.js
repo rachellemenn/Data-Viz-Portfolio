@@ -60,7 +60,7 @@ function showText1(){
   el.style.width = '80vw';
   el.style.alignItems = 'center';
   el.style.visibility = "visible";
-  el.src = 'stories2/Story1.htm';
+  el.src = 'stories2/Story1.html';
   el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
 }
 
@@ -71,7 +71,7 @@ function showText2(){
   var el = document.getElementById("htmlcontent");
   el.style.width = '80vw';
   el.style.visibility = "visible";
-  el.src = 'stories2/Story2.htm';
+  el.src = 'stories2/Story2.html';
   el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
 }
 
