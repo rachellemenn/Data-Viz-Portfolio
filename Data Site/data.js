@@ -36,7 +36,7 @@ console.log("loaded cleanupContent");
 function show1() {
     cleanupContent();
     parentContainer.appendChild(imageContent);
-    imageContent.innerHTML ='<img src="viz/Story1Data1.jpg" alt="">';
+    imageContent.innerHTML ='<img class="viz" src="viz/Story1Data1.jpg" alt="">';
 }
 
 console.log("loaded show1");
