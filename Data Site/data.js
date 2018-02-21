@@ -94,7 +94,7 @@ function showText1(){
     parentContainer.appendChild(htmlContent);
     htmlContent.src = 'stories/Story1.html';
 
-console.log(" loaded showText1");
+console.log("loaded showText1");
 
   // document.getElementById("content").style.visibility = "hidden";
   // var el = document.getElementById("htmlcontent");
@@ -109,6 +109,7 @@ function showText2(){
     cleanupContent();
     parentContainer.appendChild(htmlContent);
     htmlContent.src = 'stories/Story2.html';
+}
 
 console.log("loaded showText2");
   // document.getElementById("content").style.visibility = "hidden";
@@ -117,7 +118,6 @@ console.log("loaded showText2");
   // el.style.visibility = "visible";
   // el.src = 'stories2/Story2.html';
   // el.style.height = el.contentWindow.document.body.scrollHeight + 'px';
-}
 
 function resizeIframe() {
   // var el = document.getElementById('htmlcontent');
